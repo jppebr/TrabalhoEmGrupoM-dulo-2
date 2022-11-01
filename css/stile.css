@@ -1,0 +1,33 @@
+footer{
+width: 100%;
+min-width: 250px;
+background: #444;
+display: flex;
+}
+footer .box{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+footer .box:only-child(4){
+    width: 400px;
+}
+.box h2{
+    color: #fff;
+  margin-bottom: 20px;
+}
+.box ul li{
+    margin: 10px 0px;
+    list-style: none;
+}
+.box ul li a{
+    color: #ddd;
+    text-decoration: none;
+}
+.box ul li a:hover{
+    color: #fff;
+}
+.box p{
+    color: #fff;
+    text-align: justify;
+}
