@@ -1,139 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="./css/stile.css" />
-    <link rel="stylesheet" href="./css/cadastro.css" />
-  </head>
-  <body>
-    <header>
-      <div class="editar">
-        <nav>
-          <a class="logo" href="index.html">Bit Finance</a>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li><a href="index.html">Início</a></li>
-            <li><a href="produto.html">Serviço</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="Quemsomos.html">Quem Somos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="editar2">
-      <div class="editar2">
-        <div class="container">
-          <h1>Formulario</h1>
-          <form id="form">
-            <div>
-              <input
-                type="text" placeholder="Digite Seu Nome" class="inputs required" oninput="nameValidate()"/>
-              <span class="span-required">Nome deve ter Pelo menos 3 caracterer</span >
-            </div>
-            <div>
-              <input type="email" placeholder="Digite Seu Email" class="inputs required" oninput="emailValidate()"/>
-              <span class="span-required">Digite um Email Valido</span>
-            </div>
-            <div>
-              <input type="password" placeholder="Digite A Sua Senha" class="inputs required" oninput="mainPasswordValidate()"/>
-              <span class="span-required">Digite uma Senha Com 8 caracterer</span>
-            </div>
-            <div>
-              <input type="password" placeholder="Repita A Sua Senha" class="inputs required" oninput="comparePassoword()"/>
-              <span class="span-required">As Senhas Tem Que Ser Compativeis</span>
-            </div>
-            <div>
-              <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" placeholder="Digite seu cep"/>
-            </div>
-              <input placeholder="Rua" name="rua" type="text" id="rua" size="60" />
-              <div>
-                <input placeholder="Bairro" name="bairro" type="text" id="bairro" size="40" /></div>
-                <div>
-                <input placeholder="Cidade" name="cidade" type="text" id="cidade" size="40" /></div>
-                <div>
-                <input placeholder="Estado" name="uf" type="text" id="uf" size="4" /></div>
-              
-            <p>Genero:</p>
-            <div class="box-selected">
-              <div>
-                <input type="radio" id="m" value="m" name="genero" />
-                <label for="m">Masculino</label>
-              </div>
-              <div>
-                <input type="radio" id="f" value="f" name="genero" />
-                <label for="f">Feminino</label>
-              </div>
-            </div>
-            <button type="submit">Enviar</button>
-          </div>
-          </form>
-        </div>
-      </div>
-    </main>
 
-    <footer>
-      <div class="box">
-        <h2>Inicio</h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/stile.css" />
+  <link rel="stylesheet" href="./css/cadastro.css" />
+</head>
+
+<body>
+  <header>
+    <div class="editar">
+      <nav>
+        <a class="logo" href="index.html">Bit Finance</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
           <li><a href="produto.html">Serviço</a></li>
           <li><a href="login.html">Login</a></li>
-        </ul>
-      </div>
-      <div class="box">
-        <h2>Contato</h2>
-        <ul>
           <li><a href="cadastro.html">Cadastro</a></li>
           <li><a href="contato.html">Contato</a></li>
-          <li><a href="Quemsomos.html">Quem somos</a></li>
+          <li><a href="Quemsomos.html">Quem Somos</a></li>
         </ul>
-      </div>
-      <div class="box">
-        <h2>Sobre Nos</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eius,
-          consectetur natus tempore sint veniam non
-        </p>
-      </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous"></script>
+      </nav>
+    </div>
+  </header>
+  <main class="editar2">
+    <div class="editar2">
+      <div class="container">
+        <h1>Lista de Espera</h1>
+        <form id="form">
+          <div>
+            <input type="text" placeholder="Digite Seu Nome" class="inputs required" oninput="nameValidate()" />
+            <span class="span-required">Nome deve ter Pelo menos 3 caracterer</span>
+          </div>
+          <div>
+            <input type="email" placeholder="Digite Seu Email" class="inputs required" oninput="emailValidate()" />
+            <span class="span-required">Digite um Email Valido</span>
+          </div>
+          <div>
+            <input type="password" placeholder="Digite A Sua Senha" class="inputs required"
+              oninput="mainPasswordValidate()" />
+            <span class="span-required">Digite uma Senha Com 8 caracterer</span>
+          </div>
+          <div>
+            <input type="password" placeholder="Repita A Sua Senha" class="inputs required"
+              oninput="comparePassoword()" />
+            <span class="span-required">As Senhas Tem Que Ser Compativeis</span>
+          </div>
+          <div>
+            <input name="cep" type="text" id="cep" value="" size="20" maxlength="9" placeholder="Digite seu cep" />
+          </div>
+          <input placeholder="Rua" name="rua" type="text" id="rua" size="30" />
+          <div>
+            <input placeholder="Bairro" name="bairro" type="text" id="bairro" size="30" />
+          </div>
+          <div>
+            <input placeholder="Cidade" name="cidade" type="text" id="cidade" size="30" />
+          </div>
+          <div>
+            <input placeholder="Estado" name="uf" type="text" id="uf" size="4" />
+          </div>
 
-    <script src="./js/cadastro.js"></script>
-    <script
-      src="https://kit.fontawesome.com/f9e19193d6.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+          <p>Genero:</p>
+          <div class="box-selected">
+            <div>
+              <input type="radio" id="m" value="m" name="genero" />
+              <label for="m">Masculino</label>
+            </div>
+            <div>
+              <input type="radio" id="f" value="f" name="genero" />
+              <label for="f">Feminino</label>
+            </div>
+          </div>
+          <button type="submit">Enviar</button>
+      </div>
+      </form>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="box">
+      <h2>Inicio</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produto.html">Serviço</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Contato</h2>
+      <ul>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="Quemsomos.html">Quem somos</a></li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Sobre Nos</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eius,
+        consectetur natus tempore sint veniam non
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/cadastro.js"></script>
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
