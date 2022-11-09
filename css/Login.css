@@ -1,29 +1,30 @@
-body {
-    background: url("../img/abcdbit.jpeg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.loginD {
+  background: url("../img/abcdbit.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-form{
-    width: 300px;
+form {
+  width: 300px;
 }
 input {
-    border: none;
+  border: none;
 }
-input, button {
-    padding: 10px;
-    width: -webkit-fill-available;
+input,
+button {
+  padding: 10px;
+  width: -webkit-fill-available;
 }
 button {
-    margin-bottom: 10px;
-    cursor: pointer;
-    width: -webkit-fill-available;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: -webkit-fill-available;
 }
 
 .form-field {
-    margin-bottom: 10px;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
-    color: white;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: white;
 }

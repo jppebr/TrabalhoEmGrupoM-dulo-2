@@ -1,48 +1,37 @@
-.principal{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    /*flex-direction: column;*/
-    
-    
-    
-
+.principal {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /*flex-direction: column;*/
 }
 
-.cards{
-    display: flex;
-    
-    gap: 350px;
-    
-    margin-left: 30px;
-    margin-top: 25px;
+.cards {
+  display: flex;
+
+  gap: 300px;
+
+  margin-left: 30px;
+  margin-top: 25px;
 }
 
-.card1 img{
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    
-}  
-
-.principal2{
-    display: flex;
-    gap: 400px; 
-    margin-left: 300px;
-    margin-top: 45px;
+.card1 img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }
 
-h2{
-    text-align: center;
-    
+.principal2 {
+  display: flex;
+  gap: 400px;
+  margin-left: 300px;
+  margin-top: 100px;
 }
 
-body{
-    
+h2 {
+  text-align: center;
 }
 
-h1{
-    text-align: center;
-    margin-right: 50px;
+h1 {
+  text-align: center;
+  margin-right: 50px;
 }
-
