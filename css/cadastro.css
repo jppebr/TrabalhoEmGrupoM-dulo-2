@@ -18,8 +18,12 @@ main {
   border-radius: 10px;
   min-width: 30%;
   overflow: auto;
-  background: rgb(11,111,230);
-  background: radial-gradient(circle, rgba(11,111,230,0.9976365546218487) 99%, rgba(9,85,131,1) 100%);
+  background: rgb(1, 8, 16);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.998) 99%,
+    rgb(1, 11, 18) 100%
+  );
 }
 
 h1 {
