@@ -4,13 +4,17 @@ main {
   margin: 0;
   padding: 0;
 }
+body{
+  background-image: url(../img/abcdbit.jpeg);
+  color: white;
+}
 
 .editar2 {
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 124vh;
 }
 
 .container1 {
@@ -18,12 +22,7 @@ main {
   border-radius: 10px;
   min-width: 30%;
   overflow: auto;
-  background: rgb(1, 8, 16);
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.998) 99%,
-    rgb(1, 11, 18) 100%
-  );
+  background-image: radial-gradient(circle at 50% 50%, #6a5b71 0, #584669 16.67%, #403261 33.33%, #1f1f59 50%, #000f52 66.67%, #00004b 83.33%, #000046 100%);
 }
 
 h1 {

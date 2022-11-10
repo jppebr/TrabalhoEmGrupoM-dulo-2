@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@600 & display=swap');
 .principal {
   margin: 0;
   padding: 0;
@@ -5,10 +6,24 @@
   /*flex-direction: column;*/
 }
 
+body {
+  background-image: url(../img/abcdbit.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .cards {
   display: flex;
 
-  gap: 300px;
+  gap: 265px;
 
   margin-left: 30px;
   margin-top: 25px;
@@ -18,6 +33,7 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  border-color: black;
 }
 
 .principal2 {
@@ -25,6 +41,16 @@
   gap: 400px;
   margin-left: 300px;
   margin-top: 100px;
+}
+
+.luc {
+  text-align: center;
+}
+.sar{
+  text-align: center;
+}
+.gui{
+  text-align: center;
 }
 
 h2 {
